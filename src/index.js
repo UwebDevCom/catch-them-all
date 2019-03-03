@@ -9,7 +9,7 @@ document.querySelector('.content-console button').addEventListener('click',()=>{
     
 document.querySelectorAll('.imgChal').forEach((el)=>{
           el.classList.add("whoosh");
-          setTimeout(()=>el.classList.remove("whoosh"),500)
+          setTimeout(()=>el.classList.remove("whoosh"),300)
   })
 })
   
